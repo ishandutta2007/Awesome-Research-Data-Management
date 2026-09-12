@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="50%" style="stop-color:#161b22"/>
+      <stop offset="100%" style="stop-color:#0d1117"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58a6ff"/>
+      <stop offset="50%" style="stop-color:#a371f7"/>
+      <stop offset="100%" style="stop-color:#f778ba"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1f6feb;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#a371f7;stop-opacity:0.1"/>
+    </linearGradient>
+    <filter id="blur1" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#58a6ff" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="300" fill="url(#bg)"/>
+
+  <!-- Animated grid pattern -->
+  <g opacity="0.08">
+    <line x1="0" y1="50" x2="1200" y2="50" stroke="#58a6ff" stroke-width="0.5"/>
+    <line x1="0" y1="100" x2="1200" y2="100" stroke="#58a6ff" stroke-width="0.5"/>
+    <line x1="0" y1="150" x2="1200" y2="150" stroke="#58a6ff" stroke-width="0.5"/>
+    <line x1="0" y1="200" x2="1200" y2="200" stroke="#58a6ff" stroke-width="0.5"/>
+    <line x1="0" y1="250" x2="1200" y2="250" stroke="#58a6ff" stroke-width="0.5"/>
+    <line x1="200" y1="0" x2="200" y2="300" stroke="#58a6ff" stroke-width="0.5"/>
+    <line x1="400" y1="0" x2="400" y2="300" stroke="#58a6ff" stroke-width="0.5"/>
+    <line x1="600" y1="0" x2="600" y2="300" stroke="#58a6ff" stroke-width="0.5"/>
+    <line x1="800" y1="0" x2="800" y2="300" stroke="#58a6ff" stroke-width="0.5"/>
+    <line x1="1000" y1="0" x2="1000" y2="300" stroke="#58a6ff" stroke-width="0.5"/>
+  </g>
+
+  <!-- Floating data nodes - animated -->
+  <g filter="blur1">
+    <circle cx="100" cy="80" r="4" fill="#58a6ff" opacity="0.6">
+      <animate attributeName="cy" values="80;60;80" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="250" cy="200" r="3" fill="#a371f7" opacity="0.5">
+      <animate attributeName="cy" values="200;180;200" dur="3.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;0.9;0.5" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="450" cy="120" r="5" fill="#f778ba" opacity="0.4">
+      <animate attributeName="cy" values="120;100;120" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.4;0.8;0.4" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="750" cy="220" r="3" fill="#58a6ff" opacity="0.5">
+      <animate attributeName="cy" values="220;200;220" dur="4.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;0.9;0.5" dur="4.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="900" cy="90" r="4" fill="#a371f7" opacity="0.6">
+      <animate attributeName="cy" values="90;70;90" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1050" cy="180" r="3" fill="#f778ba" opacity="0.5">
+      <animate attributeName="cy" values="180;160;180" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;0.9;0.5" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1150" cy="60" r="4" fill="#58a6ff" opacity="0.4">
+      <animate attributeName="cy" values="60;45;60" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Connecting lines between nodes -->
+  <g opacity="0.15" stroke="url(#accent)" stroke-width="1" fill="none">
+    <line x1="100" y1="80" x2="250" y2="200">
+      <animate attributeName="opacity" values="0.15;0.4;0.15" dur="4s" repeatCount="indefinite"/>
+    </line>
+    <line x1="250" y1="200" x2="450" y2="120">
+      <animate attributeName="opacity" values="0.15;0.3;0.15" dur="3.5s" repeatCount="indefinite"/>
+    </line>
+    <line x1="450" y1="120" x2="750" y2="220">
+      <animate attributeName="opacity" values="0.15;0.35;0.15" dur="5s" repeatCount="indefinite"/>
+    </line>
+    <line x1="750" y1="220" x2="900" y2="90">
+      <animate attributeName="opacity" values="0.15;0.4;0.15" dur="4.5s" repeatCount="indefinite"/>
+    </line>
+    <line x1="900" y1="90" x2="1050" y2="180">
+      <animate attributeName="opacity" values="0.15;0.3;0.15" dur="3s" repeatCount="indefinite"/>
+    </line>
+    <line x1="1050" y1="180" x2="1150" y2="60">
+      <animate attributeName="opacity" values="0.15;0.35;0.15" dur="4s" repeatCount="indefinite"/>
+    </line>
+  </g>
+
+  <!-- Orbiting ring around title -->
+  <circle cx="600" cy="130" r="85" fill="none" stroke="url(#accent)" stroke-width="0.5" opacity="0.2" stroke-dasharray="5,5">
+    <animateTransform attributeName="transform" type="rotate" values="0 600 130;360 600 130" dur="30s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="600" cy="130" r="110" fill="none" stroke="url(#accent)" stroke-width="0.3" opacity="0.1" stroke-dasharray="3,7">
+    <animateTransform attributeName="transform" type="rotate" values="360 600 130;0 600 130" dur="45s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Orbiting dots -->
+  <circle r="2.5" fill="#58a6ff" opacity="0.7">
+    <animateMotion dur="12s" repeatCount="indefinite" path="M600,130 m-85,0 a85,85 0 1,1 170,0 a85,85 0 1,1 -170,0"/>
+  </circle>
+  <circle r="2" fill="#a371f7" opacity="0.6">
+    <animateMotion dur="18s" repeatCount="indefinite" path="M600,130 m-110,0 a110,110 0 1,1 220,0 a110,110 0 1,1 -220,0"/>
+  </circle>
+
+  <!-- Title: Awesome -->
+  <text x="600" y="115" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="20" fill="#8b949e" font-weight="400" letter-spacing="6">
+    AWESOME
+  </text>
+
+  <!-- Title: Research Data Management -->
+  <text x="600" y="155" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="700" fill="url(#accent)" filter="url(#shadow)">
+    Research Data Management
+  </text>
+
+  <!-- Subtitle -->
+  <text x="600" y="190" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#8b949e" font-weight="400" letter-spacing="2">
+    SaaS Platforms • Open Source Projects • FAIR Data • Digital Preservation
+  </text>
+
+  <!-- Bottom accent line -->
+  <rect x="350" y="210" width="500" height="2" rx="1" fill="url(#accent)" opacity="0.6">
+    <animate attributeName="opacity" values="0.3;0.8;0.3" dur="3s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Stats badges -->
+  <g transform="translate(0, 235)">
+    <rect x="340" y="0" width="110" height="28" rx="14" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+    <text x="395" y="18" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#58a6ff" font-weight="600">8 SaaS</text>
+
+    <rect x="470" y="0" width="130" height="28" rx="14" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+    <text x="535" y="18" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#a371f7" font-weight="600">22 Open Source</text>
+
+    <rect x="620" y="0" width="130" height="28" rx="14" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+    <text x="685" y="18" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#f778ba" font-weight="600">FAIR Compliant</text>
+  </g>
+
+  <!-- Pulsing FAIR badge -->
+  <g transform="translate(120, 50)">
+    <circle r="18" fill="#1f6feb" opacity="0.15">
+      <animate attributeName="r" values="18;22;18" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.15;0.05;0.15" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="14" fill="#1f6feb" opacity="0.25"/>
+    <text y="5" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#ffffff" font-weight="700">F</text>
+  </g>
+  <g transform="translate(1080, 50)">
+    <circle r="18" fill="#a371f7" opacity="0.15">
+      <animate attributeName="r" values="18;22;18" dur="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.15;0.05;0.15" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="14" fill="#a371f7" opacity="0.25"/>
+    <text y="5" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#ffffff" font-weight="700">R</text>
+  </g>
+
+  <!-- Corner accents -->
+  <path d="M0,0 L60,0 L0,60 Z" fill="#58a6ff" opacity="0.05"/>
+  <path d="M1200,0 L1140,0 L1200,60 Z" fill="#a371f7" opacity="0.05"/>
+  <path d="M0,300 L60,300 L0,240 Z" fill="#f778ba" opacity="0.05"/>
+  <path d="M1200,300 L1140,300 L1200,240 Z" fill="#58a6ff" opacity="0.05"/>
+</svg>

@@ -1,24 +1,53 @@
-# Awesome-Research-Data-Management
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Research Data Management" width="100%"/>
+</p>
 
-## Top Research Data Management Ecosystem
+# Awesome Research Data Management 📊
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on Research Data Repositories, FAIR Data, Data Management Plans, Institutional RDM, Metadata & Open Science Infrastructure*  
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+> **Curated list of the best SaaS platforms and open-source GitHub projects for Research Data Management (RDM), FAIR data, data preservation, and open science infrastructure.**
+
+*Keywords: research data management, RDM, FAIR data, data repository, data management plan, DMP, open science, metadata, digital preservation, institutional repository, research information management, CRIS, scholarly data, open access, reproducible research.*
 
 **Last updated: September 2026**
 
-This repository tracks notable **SaaS/hosted platforms** and **open-source projects** for **Research Data Management (RDM)**. These systems help researchers and institutions store, describe, preserve, share, and cite research data while supporting Data Management Plans (DMPs), FAIR principles, and open-science workflows.
+---
 
-**Examples** include LabKey, Figshare, Dryad, Dataverse, Open Science Framework (OSF), Symplectic Elements, Pure, Converis, Zenodo, and DMPTool (the category leaders).
+## What is Research Data Management?
 
-**Open-source emphasis**: Research Data Management has one of the strongest open-source ecosystems of any domain. **Dataverse**, **InvenioRDM** (the software behind Zenodo), **Open Science Framework**, **CKAN**, **DSpace**, and related projects power many institutional and national repositories. This section is heavily expanded with every major active project.
+Research Data Management (RDM) encompasses the policies, practices, and tools used to handle research data throughout its lifecycle — from creation and collection to storage, preservation, sharing, and reuse. Effective RDM ensures data follows [FAIR principles](https://www.go-fair.org/fair-principles/) (Findable, Accessible, Interoperable, Reusable) and meets funder mandates from agencies like NIH, NSF, ERC, and UKRI.
+
+This repository tracks notable **SaaS/hosted platforms** and **open-source projects** for:
+
+- **Data Repositories & Archives** — Store, share, and cite research outputs with DOIs
+- **Data Management Plans (DMPs)** — Create funder-compliant DMPs and data sharing plans
+- **Research Information Management (CRIS)** — Track publications, grants, and research impact
+- **Metadata & Standards** — Author, validate, and publish FAIR-compliant metadata
+- **Digital Preservation** — Ensure long-term access to research data and digital objects
+- **Reproducible Research** — Version control, containerized workflows, and data lineage
+- **Electronic Lab Notebooks (ELN)** — Capture experiments and protocols digitally
+
+### Category Leaders
+
+Figshare, Dryad, Dataverse, Open Science Framework (OSF), Zenodo, DSpace, CKAN, Symplectic Elements, Pure, Converis, LabKey, and DMPTool are the category leaders across these domains.
+
+### Open-Source Emphasis
+
+Research Data Management has one of the strongest open-source ecosystems of any domain. **Dataverse**, **InvenioRDM** (the software behind Zenodo), **Open Science Framework**, **CKAN**, **DSpace**, **OpenRefine**, **DVC**, and related projects power many institutional and national repositories worldwide.
+
+---
 
 Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
 
 ## Table of Contents
 
+- [What is Research Data Management?](#what-is-research-data-management)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
 - [Open-Source GitHub Projects](#open-source-github-projects)
+- [Related Resources](#related-resources)
 - [How to Contribute](#how-to-contribute)
 - [Disclaimer](#disclaimer)
 
@@ -39,32 +68,32 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Open-Source GitHub Projects
 
-The open-source RDM ecosystem is extensive. The table below lists all major active projects with their primary use case, GitHub stars, and license.
+The open-source RDM ecosystem is extensive. Projects are sorted by GitHub stars (descending).
 
-| Project | Description | Primary Use Case | GitHub | License |
-|---------|-------------|-----------------|--------|---------|
-| [**Dataverse**](https://github.com/IQSS/dataverse) | Leading open-source research data repository software developed at Harvard's IQSS. Supports sharing, citing, preserving, and discovering research data with a flexible, multi-level "Dataverse" collection model. Widely deployed by universities and consortia. | Institutional data repository | [IQSS/dataverse](https://github.com/IQSS/dataverse) (⭐ 900+) | Apache-2.0 |
-| [**InvenioRDM**](https://inveniosoftware.org/products/rdm/) | Turn-key open-source research data management repository platform built on the Invenio Framework. Zenodo is the flagship public instance; institutions can run their own InvenioRDM repositories. | Generalist / institutional repository | [inveniosoftware/invenio](https://github.com/inveniosoftware) (⭐ 700+) | MIT |
-| [**Open Science Framework (OSF)**](https://github.com/CenterForOpenScience/osf.io) | Open-source platform for the entire research lifecycle — project management, collaboration, versioning, pre-registration, and data sharing — developed by the Center for Open Science. | Research lifecycle & preregistration | [CenterForOpenScience/osf.io](https://github.com/CenterForOpenScience/osf.io) (⭐ 1.5k+) | MIT |
-| [**CKAN**](https://github.com/ckan/ckan) | Widely used open-source data portal and catalog software, frequently adopted for research data catalogues, governmental open data, and institutional data discovery. | Data catalog / portal | [ckan/ckan](https://github.com/ckan/ckan) (⭐ 4.3k+) | AGPL-3.0 |
-| [**DSpace**](https://github.com/DSpace/DSpace) | Long-established open-source repository software used by libraries and institutions for publications, theses, and increasingly for research data. | Institutional repository | [DSpace/DSpace](https://github.com/DSpace/DSpace) (⭐ 1.2k+) | Apache-2.0 |
-| [**Samvera / Hyrax**](https://samvera.org/) | Community-developed repository framework (Ruby on Rails + Fedora) powering institutional data repositories like Deep Blue Data (U Michigan) and Imago (Indiana). | Institutional repository | [samvera/hyrax](https://github.com/samvera/hyrax) (⭐ 200+) | Apache-2.0 |
-| [**Archivematica**](https://www.archivematica.org/) | Open-source digital preservation system implementing ISO 16363 (Trusted Digital Repository). Manages ingest, processing, and storage of AIPs/DIPs for long-term access. | Digital preservation | [artefactual/archivematica](https://github.com/artefactual/archivematica) (⭐ 350+) | AGPL-3.0 |
-| [**OpenRefine**](https://github.com/openrefine/openrefine) | Java-based power tool for cleaning, transforming, and reconciling messy tabular data. Widely used for metadata cleanup, name reconciliation, and data preparation in RDM workflows. | Data cleaning & reconciliation | [openrefine/openrefine](https://github.com/openrefine/openrefine) (⭐ 10k+) | BSD-3-Clause |
-| [**iRODS**](https://irods.org/) | Integrated Rule-Oriented Data System — policy-based data management middleware for large-scale, distributed storage environments. Used by national labs and research computing centers. | Policy-based distributed data mgmt | [irods/irods](https://github.com/irods/irods) (⭐ 100+) | BSD-3-Clause |
-| [**CEDAR Metadata Tool**](https://github.com/metadatacenter) | Metadata schema authoring and template management platform developed by Stanford. Generates high-quality metadata conforming to community standards for FAIR data. | Metadata authoring | [metadatacenter/cedar](https://github.com/metadatacenter) (⭐ 60+) | BSD-2-Clause |
-| [**Renku**](https://renku.io/) | Collaborative platform for reproducible and reusable data science. Built on knowledge graphs, Git, and containers to link code, data, and narrative for research workflows. | Reproducible research workflows | [RenkuML/renku](https://github.com/SwissDataScienceCenter/renku) (⭐ 250+) | Apache-2.0 |
-| [**DVC (Data Version Control)**](https://dvc.org/) | Open-source version control system for ML/data science projects. Manages large files, datasets, and ML models using Git-like semantics with cloud storage backends. | Data & ML model versioning | [iterative/dvc](https://github.com/iterative/dvc) (⭐ 14k+) | Apache-2.0 |
-| [**Fedora Repository**](https://fedorarepository.org/) | Flexible, extensible, open-source digital repository platform often paired with Samvera/Hyrax for institutional repository infrastructure. Supports linked data and scholarly objects. | Digital repository infrastructure | [fcrepo/fcrepo](https://github.com/fcrepo/fcrepo) (⭐ 150+) | MIT |
-| [**REDCap**](https://project-redcap.org/) | Secure web application for building and managing online surveys and databases for clinical research. Used by 6,000+ institutions in 160+ countries. Source available but not fully open-source license. | Clinical research data capture | [vanderbilt-redcap](https://github.com/vanderbilt-redcap) (⭐ 500+) | non-commercial license |
-| [**eLabFTW**](https://www.elabftw.net/) | Open-source electronic lab notebook for research teams. Stores and organizes experiments, protocols, and lab notes with full-text search and ELN capabilities. | Electronic lab notebook (ELN) | [elabftw/elabftw](https://github.com/elabftw/elabftw) (⭐ 2k+) | AGPL-3.0 |
-| [**OpenNeuro**](https://openneuro.org/) | Free, open platform for sharing neuroimaging data (MRI, MEG, EEG, PET) formatted to the Brain Imaging Data Structure (BIDS) standard. BRAIN Initiative designated archive. | Neuroimaging data sharing | [OpenNeuroOrg/openneuro](https://github.com/OpenNeuroOrg/openneuro) (⭐ 400+) | MIT |
-| [**REANA**](https://reanahub.io/) | Reusable and reproducible research data analysis platform from CERN. Structures input data, analysis code, and containerised workflows for reproducibility. | Reproducible analysis platform | [reanahub/reana](https://github.com/reanahub/reana) (⭐ 150+) | MIT |
-| [**cBioPortal**](https://www.cbioportal.org/) | Visualization, analysis, and download of large-scale cancer genomics data sets. Over 200 published cancer studies with mutation, expression, and clinical data. | Cancer genomics data portal | [cBioPortal/cbioportal](https://github.com/cBioPortal/cbioportal) (⭐ 2.5k+) | AGPL-3.0 |
-| [**Frictionless Data**](https://frictionlessdata.io/) | Lightweight specifications and Python/JS/R tooling for data validation, extraction, and transformation. Provides Data Package and Table Schema standards for FAIR data. | Data packaging & validation standards | [frictionlessdata](https://github.com/frictionlessdata) (⭐ 2k+) | MIT |
-| [**DataHub**](https://datahubproject.io/) | Metadata platform originally from LinkedIn for data discovery, governance, and observability. Tracks lineage, integrates with dbt, Airflow, and Spark. | Metadata management & data discovery | [datahub-project/datahub](https://github.com/datahub-project/datahub) (⭐ 11k+) | Apache-2.0 |
-| [**OpenMetadata**](https://open-metadata.org/) | Open-source metadata platform for data cataloging, governance, and observability. Supports lineage, data quality, and ML metadata management. | Metadata management & data catalog | [open-metadata/openmetadata](https://github.com/open-metadata/openmetadata) (⭐ 8k+) | Apache-2.0 |
-| [**Amundsen**](https://www.amundsen.io/) | Data discovery and metadata engine originally from Lyft. Helps users discover and trust data through a searchable metadata catalog. | Data discovery engine | [amundsen-io/amundsen](https://github.com/amundsen-io/amundsen) (⭐ 2k+) | Apache-2.0 |
+| Project | Stars | Description | Primary Use Case | License |
+|---------|-------|-------------|-----------------|---------|
+| [**DVC (Data Version Control)**](https://dvc.org/) [![GitHub stars](https://img.shields.io/github/stars/iterative/dvc?style=social&logo=github&color=white)](https://github.com/iterative/dvc/stargazers) | 14k+ | Open-source version control system for ML/data science projects. Manages large files, datasets, and ML models using Git-like semantics with cloud storage backends. | Data & ML model versioning | Apache-2.0 |
+| [**DataHub**](https://datahubproject.io/) [![GitHub stars](https://img.shields.io/github/stars/datahub-project/datahub?style=social&logo=github&color=white)](https://github.com/datahub-project/datahub/stargazers) | 11k+ | Metadata platform originally from LinkedIn for data discovery, governance, and observability. Tracks lineage, integrates with dbt, Airflow, and Spark. | Metadata management & data discovery | Apache-2.0 |
+| [**OpenRefine**](https://github.com/openrefine/openrefine) [![GitHub stars](https://img.shields.io/github/stars/openrefine/openrefine?style=social&logo=github&color=white)](https://github.com/openrefine/openrefine/stargazers) | 10k+ | Java-based power tool for cleaning, transforming, and reconciling messy tabular data. Widely used for metadata cleanup, name reconciliation, and data preparation in RDM workflows. | Data cleaning & reconciliation | BSD-3-Clause |
+| [**OpenMetadata**](https://open-metadata.org/) [![GitHub stars](https://img.shields.io/github/stars/open-metadata/openmetadata?style=social&logo=github&color=white)](https://github.com/open-metadata/openmetadata/stargazers) | 8k+ | Open-source metadata platform for data cataloging, governance, and observability. Supports lineage, data quality, and ML metadata management. | Metadata management & data catalog | Apache-2.0 |
+| [**CKAN**](https://github.com/ckan/ckan) [![GitHub stars](https://img.shields.io/github/stars/ckan/ckan?style=social&logo=github&color=white)](https://github.com/ckan/ckan/stargazers) | 4.3k+ | Widely used open-source data portal and catalog software, frequently adopted for research data catalogues, governmental open data, and institutional data discovery. | Data catalog / portal | AGPL-3.0 |
+| [**cBioPortal**](https://www.cbioportal.org/) [![GitHub stars](https://img.shields.io/github/stars/cBioPortal/cbioportal?style=social&logo=github&color=white)](https://github.com/cBioPortal/cbioportal/stargazers) | 2.5k+ | Visualization, analysis, and download of large-scale cancer genomics data sets. Over 200 published cancer studies with mutation, expression, and clinical data. | Cancer genomics data portal | AGPL-3.0 |
+| [**eLabFTW**](https://www.elabftw.net/) [![GitHub stars](https://img.shields.io/github/stars/elabftw/elabftw?style=social&logo=github&color=white)](https://github.com/elabftw/elabftw/stargazers) | 2k+ | Open-source electronic lab notebook for research teams. Stores and organizes experiments, protocols, and lab notes with full-text search and ELN capabilities. | Electronic lab notebook (ELN) | AGPL-3.0 |
+| [**Frictionless Data**](https://frictionlessdata.io/) [![GitHub stars](https://img.shields.io/github/stars/frictionlessdata?style=social&logo=github&color=white)](https://github.com/frictionlessdata/stargazers) | 2k+ | Lightweight specifications and Python/JS/R tooling for data validation, extraction, and transformation. Provides Data Package and Table Schema standards for FAIR data. | Data packaging & validation standards | MIT |
+| [**Amundsen**](https://www.amundsen.io/) [![GitHub stars](https://img.shields.io/github/stars/amundsen-io/amundsen?style=social&logo=github&color=white)](https://github.com/amundsen-io/amundsen/stargazers) | 2k+ | Data discovery and metadata engine originally from Lyft. Helps users discover and trust data through a searchable metadata catalog. | Data discovery engine | Apache-2.0 |
+| [**Open Science Framework (OSF)**](https://github.com/CenterForOpenScience/osf.io) [![GitHub stars](https://img.shields.io/github/stars/CenterForOpenScience/osf.io?style=social&logo=github&color=white)](https://github.com/CenterForOpenScience/osf.io/stargazers) | 1.5k+ | Open-source platform for the entire research lifecycle — project management, collaboration, versioning, pre-registration, and data sharing — developed by the Center for Open Science. | Research lifecycle & preregistration | MIT |
+| [**DSpace**](https://github.com/DSpace/DSpace) [![GitHub stars](https://img.shields.io/github/stars/DSpace/DSpace?style=social&logo=github&color=white)](https://github.com/DSpace/DSpace/stargazers) | 1.2k+ | Long-established open-source repository software used by libraries and institutions for publications, theses, and increasingly for research data. | Institutional repository | Apache-2.0 |
+| [**Dataverse**](https://github.com/IQSS/dataverse) [![GitHub stars](https://img.shields.io/github/stars/IQSS/dataverse?style=social&logo=github&color=white)](https://github.com/IQSS/dataverse/stargazers) | 900+ | Leading open-source research data repository software developed at Harvard's IQSS. Supports sharing, citing, preserving, and discovering research data with a flexible, multi-level "Dataverse" collection model. Widely deployed by universities and consortia. | Institutional data repository | Apache-2.0 |
+| [**InvenioRDM**](https://inveniosoftware.org/products/rdm/) [![GitHub stars](https://img.shields.io/github/stars/inveniosoftware/invenio?style=social&logo=github&color=white)](https://github.com/inveniosoftware/invenio/stargazers) | 700+ | Turn-key open-source research data management repository platform built on the Invenio Framework. Zenodo is the flagship public instance; institutions can run their own InvenioRDM repositories. | Generalist / institutional repository | MIT |
+| [**REDCap**](https://project-redcap.org/) [![GitHub stars](https://img.shields.io/github/stars/vanderbilt-redcap?style=social&logo=github&color=white)](https://github.com/vanderbilt-redcap/stargazers) | 500+ | Secure web application for building and managing online surveys and databases for clinical research. Used by 6,000+ institutions in 160+ countries. Source available but not fully open-source license. | Clinical research data capture | non-commercial license |
+| [**OpenNeuro**](https://openneuro.org/) [![GitHub stars](https://img.shields.io/github/stars/OpenNeuroOrg/openneuro?style=social&logo=github&color=white)](https://github.com/OpenNeuroOrg/openneuro/stargazers) | 400+ | Free, open platform for sharing neuroimaging data (MRI, MEG, EEG, PET) formatted to the Brain Imaging Data Structure (BIDS) standard. BRAIN Initiative designated archive. | Neuroimaging data sharing | MIT |
+| [**Archivematica**](https://www.archivematica.org/) [![GitHub stars](https://img.shields.io/github/stars/artefactual/archivematica?style=social&logo=github&color=white)](https://github.com/artefactual/archivematica/stargazers) | 350+ | Open-source digital preservation system implementing ISO 16363 (Trusted Digital Repository). Manages ingest, processing, and storage of AIPs/DIPs for long-term access. | Digital preservation | AGPL-3.0 |
+| [**Renku**](https://renku.io/) [![GitHub stars](https://img.shields.io/github/stars/SwissDataScienceCenter/renku?style=social&logo=github&color=white)](https://github.com/SwissDataScienceCenter/renku/stargazers) | 250+ | Collaborative platform for reproducible and reusable data science. Built on knowledge graphs, Git, and containers to link code, data, and narrative for research workflows. | Reproducible research workflows | Apache-2.0 |
+| [**Samvera / Hyrax**](https://samvera.org/) [![GitHub stars](https://img.shields.io/github/stars/samvera/hyrax?style=social&logo=github&color=white)](https://github.com/samvera/hyrax/stargazers) | 200+ | Community-developed repository framework (Ruby on Rails + Fedora) powering institutional data repositories like Deep Blue Data (U Michigan) and Imago (Indiana). | Institutional repository | Apache-2.0 |
+| [**iRODS**](https://irods.org/) [![GitHub stars](https://img.shields.io/github/stars/irods/irods?style=social&logo=github&color=white)](https://github.com/irods/irods/stargazers) | 100+ | Integrated Rule-Oriented Data System — policy-based data management middleware for large-scale, distributed storage environments. Used by national labs and research computing centers. | Policy-based distributed data mgmt | BSD-3-Clause |
+| [**Fedora Repository**](https://fedorarepository.org/) [![GitHub stars](https://img.shields.io/github/stars/fcrepo/fcrepo?style=social&logo=github&color=white)](https://github.com/fcrepo/fcrepo/stargazers) | 150+ | Flexible, extensible, open-source digital repository platform often paired with Samvera/Hyrax for institutional repository infrastructure. Supports linked data and scholarly objects. | Digital repository infrastructure | MIT |
+| [**CEDAR Metadata Tool**](https://github.com/metadatacenter) [![GitHub stars](https://img.shields.io/github/stars/metadatacenter?style=social&logo=github&color=white)](https://github.com/metadatacenter/stargazers) | 60+ | Metadata schema authoring and template management platform developed by Stanford. Generates high-quality metadata conforming to community standards for FAIR data. | Metadata authoring | BSD-2-Clause |
+| [**REANA**](https://reanahub.io/) [![GitHub stars](https://img.shields.io/github/stars/reanahub/reana?style=social&logo=github&color=white)](https://github.com/reanahub/reana/stargazers) | 150+ | Reusable and reproducible research data analysis platform from CERN. Structures input data, analysis code, and containerised workflows for reproducibility. | Reproducible analysis platform | MIT |
 
 ### Related Open Metadata & Standards Tooling
 
