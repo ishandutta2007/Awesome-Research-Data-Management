@@ -4,9 +4,7 @@
 
 # Awesome Research Data Management 📊
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
-[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com) [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/) <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
 > **Curated list of the best SaaS platforms and open-source GitHub projects for Research Data Management (RDM), FAIR data, data preservation, and open science infrastructure.**
 
@@ -16,25 +14,26 @@
 
 ---
 
-## What is Research Data Management?
+## 🔬 What is Research Data Management?
 
 Research Data Management (RDM) encompasses the policies, practices, and tools used to handle research data throughout its lifecycle — from creation and collection to storage, preservation, sharing, and reuse. Effective RDM ensures data follows [FAIR principles](https://www.go-fair.org/fair-principles/) (Findable, Accessible, Interoperable, Reusable) and meets funder mandates from agencies like NIH, NSF, ERC, and UKRI.
 
 This repository tracks notable **SaaS/hosted platforms** and **open-source projects** for:
 
-- **Data Repositories & Archives** — Store, share, and cite research outputs with DOIs
-- **Data Management Plans (DMPs)** — Create funder-compliant DMPs and data sharing plans
-- **Research Information Management (CRIS)** — Track publications, grants, and research impact
-- **Metadata & Standards** — Author, validate, and publish FAIR-compliant metadata
-- **Digital Preservation** — Ensure long-term access to research data and digital objects
-- **Reproducible Research** — Version control, containerized workflows, and data lineage
+- 🗄️ **Data Repositories & Archives** — Store, share, and cite research outputs with DOIs
+- 📋 **Data Management Plans (DMPs)** — Create funder-compliant DMPs and data sharing plans
+- 🏛️ **Research Information Management (CRIS)** — Track publications, grants, and research impact
+- 🏷️ **Metadata & Standards** — Author, validate, and publish FAIR-compliant metadata
+- 🛡️ **Digital Preservation** — Ensure long-term access to research data and digital objects
+- 🔄 **Reproducible Research** — Version control, containerized workflows, and data lineage
+- 📓 **Electronic Lab Notebooks (ELN)** — Capture experiments and protocols digitally
 - **Electronic Lab Notebooks (ELN)** — Capture experiments and protocols digitally
 
-### Category Leaders
+### 🏆 Category Leaders
 
 Figshare, Dryad, Dataverse, Open Science Framework (OSF), Zenodo, DSpace, CKAN, Symplectic Elements, Pure, Converis, LabKey, and DMPTool are the category leaders across these domains.
 
-### Open-Source Emphasis
+### 🌐 Open-Source Emphasis
 
 Research Data Management has one of the strongest open-source ecosystems of any domain. **Dataverse**, **InvenioRDM** (the software behind Zenodo), **Open Science Framework**, **CKAN**, **DSpace**, **OpenRefine**, **DVC**, and related projects power many institutional and national repositories worldwide.
 
@@ -44,14 +43,15 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
-- [What is Research Data Management?](#what-is-research-data-management)
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [Related Resources](#related-resources)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
+- [🔬 What is Research Data Management?](#what-is-research-data-management)
+- [☁️ SaaS/Hosted Platforms](#saas-hosted-platforms)
+- [🐙 Open-Source GitHub Projects](#open-source-github-projects)
+- [🛠️ Related Resources](#related-resources)
+- [🤝 How to Contribute](#how-to-contribute)
+- [⚠️ Disclaimer](#disclaimer)
+- [📈 Star History](#-star-history)
 
-## SaaS/Hosted Platforms
+## ☁️ SaaS/Hosted Platforms
 
 **Market Context**: The Research Data Management and repository sector is estimated at **$2–3 billion annually** (2025–2026), encompassing institutional CRIS platforms, generalist data repositories, DMP tools, and enterprise research information systems. The sector is **moderately fragmented** — a few large incumbents (Elsevier/RELX, Springer Nature, Digital Science) dominate the CRIS/institutional segment, while the generalist repository space has many players (Figshare, Dryad, Zenodo, OSF) with no single winner-take-all dynamic. Open-source projects like Dataverse, DSpace, and CKAN ensure no vendor can fully lock in the market. The sector is expected to grow at ~8–12% CAGR driven by mandates for FAIR data and open science from funders like NIH, NSF, and the European Commission.
 
@@ -66,7 +66,7 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 | [**Open Science Framework (OSF)**](https://osf.io/) | [Center for Open Science](https://www.cos.io/) (501(c)(3) nonprofit) | **$10.2M revenue** (FY2024, mostly grants) | **Free** for researchers (no paid tier) | **Free forever** — 5 GB per private project, 50 GB per public project; unlimited components per project |
 | [**DMPTool**](https://dmptool.org/) | [California Digital Library](https://cdlib.org/) (UC system) | Part of UC/CDL budget (**~$400M+** CDL annual) | **Free** for all users (no paid tier) | **Free forever** — unlimited DMPs, no storage limits (planning tool, not a data repository) |
 
-## Open-Source GitHub Projects
+## 🐙 Open-Source GitHub Projects
 
 The open-source RDM ecosystem is extensive. Projects are sorted by GitHub stars (descending).
 
@@ -95,7 +95,7 @@ The open-source RDM ecosystem is extensive. Projects are sorted by GitHub stars 
 | [**CEDAR Metadata Tool**](https://github.com/metadatacenter) [![GitHub stars](https://img.shields.io/github/stars/metadatacenter?style=social&logo=github&color=white)](https://github.com/metadatacenter/stargazers) | 60+ | Metadata schema authoring and template management platform developed by Stanford. Generates high-quality metadata conforming to community standards for FAIR data. | Metadata authoring | BSD-2-Clause |
 | [**REANA**](https://reanahub.io/) [![GitHub stars](https://img.shields.io/github/stars/reanahub/reana?style=social&logo=github&color=white)](https://github.com/reanahub/reana/stargazers) | 150+ | Reusable and reproducible research data analysis platform from CERN. Structures input data, analysis code, and containerised workflows for reproducibility. | Reproducible analysis platform | MIT |
 
-### Related Open Metadata & Standards Tooling
+### 🛠️ Related Open Metadata & Standards Tooling
 
 - **Metadata & standards**: [CEDAR](https://github.com/metadatacenter), [schema.org](https://schema.org/), [DataCite](https://datacite.org/), [Dublin Core](https://www.dublincore.org/), and related open metadata tooling.
 - **FAIR assessment**: Community tools that evaluate datasets against FAIR principles.
@@ -106,7 +106,8 @@ The open-source RDM ecosystem is extensive. Projects are sorted by GitHub stars 
 
 ---
 
-**Frameworks for building custom systems**:  
+### 🧩 Frameworks for building custom systems
+
 The strongest open-source foundations are **Dataverse** (especially for institutional data repositories) and **InvenioRDM** (for Zenodo-style generalist or institutional repositories).  
 **OSF** provides an open platform for project-centric research workflows.  
 **CKAN** and **DSpace** remain excellent for catalogs and hybrid publication/data repositories.  
@@ -115,16 +116,16 @@ These can be combined with open metadata tools, preservation systems, and authen
 
 Hosted services (Figshare, Dryad, Zenodo.org, OSF.io, LabKey Cloud, commercial CRIS platforms) offer convenience, curation, and support. Many institutions run self-hosted Dataverse or InvenioRDM instances while also recommending Zenodo or domain repositories to their researchers.
 
-## How to Contribute
+## 🤝 How to Contribute
 
 1. Fork the repo.
 2. Add/edit entries in `README.md` (follow existing format).
 3. Include: name, link, 1–2 sentence description, and whether it's SaaS/hosted or open-source.
 4. Submit PR with a short explanation.
 
-Star the repo if you find it useful!
+⭐ Star the repo if you find it useful!
 
-## Disclaimer
+## ⚠️ Disclaimer
 
 - This is a **community-curated** list — not exhaustive and not an endorsement.
 - Research data often includes sensitive, personal, or proprietary information. Access controls, consent, licensing, and long-term preservation planning are essential.
@@ -132,5 +133,11 @@ Star the repo if you find it useful!
 
 ---
 
+## 📈 Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=ishandutta2007/Awesome-Research-Data-Management&type=Date)](https://star-history.com/#ishandutta2007/Awesome-Research-Data-Management&Date)
+
+---
+
 **Made for research data stewards, librarians, research software engineers, open-science advocates, and institutional research offices.**  
-Let's strengthen the global open infrastructure for research data so that knowledge remains findable, accessible, interoperable, and reusable.
+Let's strengthen the global open infrastructure for research data so that knowledge remains findable, accessible, interoperable, and reusable. 🚀
